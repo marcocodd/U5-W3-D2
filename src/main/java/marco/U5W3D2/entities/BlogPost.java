@@ -1,6 +1,6 @@
 package marco.U5W3D2.entities;
 
-public class Blog {
+public class BlogPost {
 
     private int id;
     private String categoria;
@@ -9,10 +9,10 @@ public class Blog {
     private String contenuto;
     private int tempoDiLettura;
 
-    public Blog() {
+    public BlogPost() {
     }
 
-    public Blog(int id, String categoria, String titolo, String cover, String contenuto, int tempoDiLettura) {
+    public BlogPost(int id, String categoria, String titolo, String cover, String contenuto, int tempoDiLettura) {
         this.id = id;
         this.categoria = categoria;
         this.titolo = titolo;
@@ -35,6 +35,10 @@ public class Blog {
 
     public int getId() {
         return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getCategoria() {

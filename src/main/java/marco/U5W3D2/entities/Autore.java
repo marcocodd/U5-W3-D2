@@ -13,6 +13,10 @@ public class Autore {
     public Autore() {
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public Autore(int id, String nome, String cognome, String email, LocalDate dataNascita, String avatar) {
         this.id = id;
         this.nome = nome;
