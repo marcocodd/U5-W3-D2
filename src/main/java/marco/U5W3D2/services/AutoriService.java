@@ -13,5 +13,6 @@ public class AutoriService {
     public List<Autore> getAutoriList() {
         return autoriList;
     }
+
     
 }
